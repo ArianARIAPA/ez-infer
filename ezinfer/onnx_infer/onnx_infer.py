@@ -19,3 +19,6 @@ class OnnxInfer(BaseInfer):
             input_feed={self._input_name: self.force_input(input)},
             kwargs=kwargs
         )
+    
+    def get_session(self):
+        return self._session

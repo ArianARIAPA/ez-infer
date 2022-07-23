@@ -15,4 +15,6 @@ class PytorchInfer(BaseInfer):
 
     def __call__(self, input, **kwargs):
         return self._model(self.force_input(input), kwargs=kwargs)
-        
+
+    def get_session(self):
+        return self._model    

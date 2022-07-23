@@ -14,3 +14,6 @@ class MxnetInfer(BaseInfer):
 
     def __call__(self, input, **kwargs):
         return self._model(nd.array(self.force_input(input), ctx=self._context), kwargs=kwargs)
+
+    def get_session(self):
+        return self._model
