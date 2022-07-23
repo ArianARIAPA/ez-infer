@@ -1,2 +1,2 @@
 # ez-infer
-A universal wrapper for the mainstream Deep Learning backends.
+A universal wrapper for the mainstream Python deep learning backends.
