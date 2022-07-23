@@ -1,6 +1,7 @@
 from ezinfer.base_infer import BaseInfer
 import tensorflow as tf
 from tensorflow import keras
+
 class TensorflowInfer(BaseInfer):
     def __init__(self, model_path:str, use_gpu:bool=False, **kwargs):
         self._src = model_path

@@ -7,3 +7,6 @@ ezinfer/base_infer/__pycache__
 ezinfer/__pycache__
 tests/__pycache__
 ezinfer/mxnet_infer/__pycache__
+venv
+ezinfer.egg-info
+dist
